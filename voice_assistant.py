@@ -36,7 +36,7 @@ def run_assistant():
         if "hello" in command:
             speak("Hello! How can I help?")
         elif "time" in command:
-            time = datetime.datetime.now().strftime('%I:%M %p') # Timme in 12 hour format
+            time = datetime.datetime.now().strftime('%I:%M %p') # Time in 12 hour format
             speak(f"The time is {time}")
         elif "date" in command:
             date = datetime.date.today().strftime('%B %d, %Y')
